@@ -16,10 +16,13 @@ table td {
   border: 1px solid #f4ebeb;
   text-align: center;
   width: 100px;
+  color: cadetblue;
 }
 
 table th {
   background-color: #57a7fd;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
 }
 
 tbody tr:nth-child(odd) {

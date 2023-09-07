@@ -1,14 +1,13 @@
 .profile {
   display: block;
   position: relative;
-  width: 100%;
-  max-width: 300px;
-  background: #fff;
+  width: 300px;
+  background-color: #fdfdfd;
   border-radius: 10px;
   margin: 0 auto;
-  box-shadow: 0px 2px 5px rgba(58, 79, 105, 0.5);
-  margin-top: 32px;
-  margin-bottom: 32px;
+  box-shadow: 0px 2px 2px rgba(152, 165, 181, 0.5);
+  margin-top: 30px;
+  margin-bottom: 30px;
   padding-top: 20px;
 }
 
@@ -25,7 +24,7 @@
   width: 100px;
   margin: 0 auto;
   border-radius: 50%;
-  background-color: #2e3f53;
+  background-color: #796431;
 }
 
 .name {
@@ -41,7 +40,7 @@
   margin-top: 0;
   margin-bottom: 20px;
   text-align: center;
-  /* opacity: 0.8; */
+  opacity: 0.4;
   font-size: 14px;
   font-weight: 700;
 }
@@ -106,11 +105,5 @@
   width: 100%;
   text-align: center;
   color: #2e3f53;
-  line-height: 1;
-}
-
-@media screen and (max-width: 767px) {
-  .profile {
-    width: 300px;
-  }
+  line-height: 1.2;
 }
